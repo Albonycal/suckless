@@ -64,24 +64,12 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
      
+    { run_command,     "^c#A48EAD^ %2s ",        "sb-nettraf" },
 
-	{ run_command,     "^c#A3BE8C^ %2s ",        "cpuicon.sh" },
-	{ cpu_perc,	   "^c#ffffff^ %s%% |",         NULL           },
-	
-	{ run_command,     "^c#EBCB8B^ %2s ",        "ramicon.sh" },
-	{ ram_perc,        "^c#ffffff^ %s%% | ",        NULL           },
-	
-	{ run_command,     "^c#81A1C1^ %2s ",        "diskicon.sh" },
-	{ disk_perc,       "^c#ffffff^  %s%% |",         "/"            },
+	{ run_command,     "^c#A3BE8C^ %2s ",        "sb-battery" },
 	
 	{ run_command,     "^c#BF616A^ %s |",        "sb-temp" },
 
-/*	{ run_command,     "^c#A48EAD^ %2s ",        "weathericon.sh" },
-	{ run_command,     "^c#ffffff^ %2s |",     "tail -1 ~/.config/.weather" }, 
-	
-	{ run_command,     "^c#88C0D0^ %2s ",        "pacmanicon.sh" },
-	{ run_command,     "^c#ffffff^ %2s |",     "tail -1 ~/.config/.updates" }, */
-	
 	{ run_command,     "^c#A3BE8C^ %s ",        "volumeicon.sh" },
 	{ run_command,     "^c#ffffff^ %s |",     "volume.sh" }, 
         
