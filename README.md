@@ -48,5 +48,8 @@ Then hit save
 
 
 # suckless
-# suckless
-# suckless
+
+### Credits
+TheLinuxCast 
+Albonycal
+(The project is a fork)
